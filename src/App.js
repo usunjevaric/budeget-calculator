@@ -106,7 +106,7 @@ function App() {
         />
       </main>
       <h1>
-        total spending:{" "}
+        Total spending:{" "}
         <span className='total'>
           $
           {expenses.reduce((acc, cur) => {
